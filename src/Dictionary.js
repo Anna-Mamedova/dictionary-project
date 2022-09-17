@@ -30,7 +30,7 @@ export default function Dictionary() {
     function handleKeywordChange(event) {
         setKeyword(event.target.value);
     }
-
+    
     return (
         <div className="Dictionary">
             <section>
